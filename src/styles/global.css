@@ -12,7 +12,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #03045e;
-
+  color: var(--color-light);
+  font-family:Arial, Helvetica, sans-serif
   
+}
+
+.MuiTypography-root {
+  color: var(--color-dark);
 }
