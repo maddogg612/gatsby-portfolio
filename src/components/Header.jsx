@@ -1,21 +1,26 @@
 import React from 'react';
-import styled from 'styled-components';
+import HeaderPic from '../images/favicon.png'
+//import styled from 'styled-components';
 
-const HeaderDiv = styled.div`
-background-color: var(--color-dark);
-color: var(--color-light);
-`
+// const HeaderDiv = styled.div`
+// background-color: var(--color-dark);
+// `
 
 
 const Header = () => {
   return (
-    <HeaderDiv>
-    <h1>Gordon Hui or picture here</h1>
-    <h1>About</h1>
-    <h1>Technologies</h1>
-    <h1>Projects</h1>
-    <h1>Resume link </h1>
-    </HeaderDiv>
+    
+  <header className='header'>
+    <div className='header-left'>
+      <img src={HeaderPic} alt='mini headshot'/>
+      <span>GH</span>
+    </div>
+    <div className="header-links">
+      <a href="#aboutSection">About</a>
+      <a href="#projects">Projects</a>
+      <a href="resume">Resume</a>
+    </div>
+  </header>
   )
 }
 

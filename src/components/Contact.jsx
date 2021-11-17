@@ -19,7 +19,7 @@ const Contact = () => {
             component="p"
             gutterBottom
           >
-            Comments, Advice or Just want to say Hi, please reach out.
+            Always looking for new opportunities, please reach out.
           </Typography>
           <form>
             <Grid container spacing={1}>

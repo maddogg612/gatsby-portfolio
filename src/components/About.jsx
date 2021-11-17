@@ -1,4 +1,5 @@
 import React from 'react';
+import TechStack from './TechStack';
 
 const About = () => {
   return (
@@ -9,6 +10,8 @@ const About = () => {
       </h1>
       <p> full-stack developer & veterinarian</p>
       <p>my narriative goes here</p>
+
+      <TechStack/>
     </div>
   )
 }

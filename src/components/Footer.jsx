@@ -19,12 +19,16 @@ align-items: center;
 const FooterDiv = styled.div`
 background-color: var(--color-dark);
 color: var(--color-light);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 `
 
 
 const Footer = () => {
   return (
-    <FooterDiv>
+    <FooterDiv className="footer">
       <ContactDiv>
         <a
           href="https://github.com/maddogg612"
@@ -40,7 +44,7 @@ const Footer = () => {
         >
           <ContactImages src={Linkedin} alt="linkedin" className="contactimage" />
         </a>
-        <a href="email">
+        <a href="#contactForm">
         <ContactImages src={Email} alt="email" className="contactimage" />
       </a>
       </ContactDiv>

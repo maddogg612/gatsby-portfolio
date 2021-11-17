@@ -9,7 +9,7 @@ import { Container, Grid, Button, CardMedia, Typography, CardContent, CardAction
 
 const Projects = () => {
   return (
-      <Container style={{ maxWidth: '80%', padding: '20px', margin: '10px auto' }}>
+      <Container style={{ maxWidth: '80%', padding: '20px', margin: '10px auto' }} id="projects">
         
         <Grid container spacing={4} gap={2} align="center">
 
@@ -48,7 +48,7 @@ const Projects = () => {
               <CardMedia component='img' sx={{p:'3%'}} image={NTheLoop} alt='in the loop homepage' height="95%" width="95%"/>
               <CardContent align='center'>
               <Typography gutterBottom variant='h5' component='h2'>In The Loop</Typography>
-              <Typography>Web Application | Find live music nearby and choose by ear</Typography>
+              <Typography>Web Application | Find music nearby and choose by ear</Typography>
               <Typography>React | Chakra UI | MongoDB</Typography>
               </CardContent>
               <CardActions>

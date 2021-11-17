@@ -2,13 +2,11 @@ import React from 'react';
 import About from './About'
 import Projects from './Projects';
 import Contact from './Contact'
-import TechStack from './TechStack';
 
 const Body = () => {
   return (
-    <div>
+    <div className="pagebody">
     <About />
-    <TechStack />
     <Projects />
     <Contact />
     </div>
