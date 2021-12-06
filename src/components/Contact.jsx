@@ -3,12 +3,9 @@ import { Grid, Card, CardContent, Typography, TextField, Button } from '@mui/mat
 
 const Contact = () => {
 
-  function onSubmit () {
-    console.log('submitted')
-  }
   return (
   <Grid className="contactForm" id="contactForm">
-      <Card style={{ maxWidth: 950, padding: '20px 5px', margin: '10px auto' }}>
+      <Card style={{ maxWidth: 900, padding: '20px 5px', margin: '10px auto' }}>
         <CardContent>
           <Typography gutterBottom variant="h5">
             Contact Me
@@ -21,26 +18,18 @@ const Contact = () => {
           >
             Always looking for new opportunities, please reach out.
           </Typography>
-          <form>
+          <form method="post" action="https://www.flexyform.com/f/044df292e251a5c35cf718f1c3010dda462d6ef6">
             <Grid container spacing={1}>
-              <Grid xs={12} sm={6} item>
+              <Grid xs={12} item>
                 <TextField
                   className="form-control firstName"
                   placeholder="Enter first name"
-                  label="First Name"
+                  label="Name"
                   variant="outlined"
                   fullWidth
                   required
-                />
-              </Grid>
-              <Grid xs={12} sm={6} item>
-                <TextField
-                  className="form-control lastName"
-                  placeholder="Enter last name"
-                  label="Last Name"
-                  variant="outlined"
-                  fullWidth
-                  required
+                  type='text'
+                  name='fullname'
                 />
               </Grid>
               <Grid xs={12} item>
@@ -51,6 +40,8 @@ const Contact = () => {
                   variant="outlined"
                   fullWidth
                   required
+                  type='email'
+                  name='_reply-to'
                 />
               </Grid>
               <Grid xs={12} item>
@@ -63,6 +54,8 @@ const Contact = () => {
                   variant="outlined"
                   fullWidth
                   required
+                  type='text'
+                  name='message'
                 />
               </Grid>
               <Grid xs={12} item>
@@ -71,7 +64,6 @@ const Contact = () => {
                   variant="contained"
                   color="primary"
                   fullWidth
-                  onClick={onSubmit}
                 >
                   Submit
                 </Button>

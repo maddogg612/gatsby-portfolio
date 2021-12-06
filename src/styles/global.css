@@ -5,7 +5,8 @@
   --color-midlight: #90e0ef;
   --color-light: #caf0f8;
 
-
+  --font-header: 'Prata', sans-serif;
+  --font-body: 'Lato', serif;
 }
 
 *, ::before, ::after {
@@ -13,11 +14,25 @@
   margin: 0;
   box-sizing: border-box;
   color: var(--color-light);
-  font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--font-header);
 }
 
 .MuiTypography-root {
   color: var(--color-dark);
+  font-family: var(--font-body);
+}
+
+.MuiTypography-h5{
+  font-family: var(--font-header);
+  font-weight: 500;
+}
+
+.MuiTypography-body2{
+  color: var(--color-middark)
+}
+
+.MuiButton-root{
+  background-color: var(--color-middark);
 }
 
 
@@ -37,10 +52,16 @@
   padding: 10px;
 }
 
-.pagebody{
-  padding-top: 60px;
-}
 
 .header-left{
   display: inline-block;
+}
+
+
+.aboutSection {
+  margin-bottom: 50px;
+}
+
+.contactForm{
+  margin-bottom: 30px;
 }

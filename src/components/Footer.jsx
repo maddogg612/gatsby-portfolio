@@ -1,7 +1,7 @@
 import React from 'react';
 import Github from '../images/Contact/github.ico'
 import Linkedin from '../images/Contact/linkedin.ico'
-import Email from '../images/Contact/email.ico'
+//import Email from '../images/Contact/email.ico'
 import styled from 'styled-components';
 
 const ContactImages = styled.img`
@@ -38,17 +38,17 @@ const Footer = () => {
           <ContactImages src={Github} alt="github" className="contactimage" />
         </a>
         <a
-          href="https://www.linkedin.com/in/gordon-hui-78453935/"
+          href="https://www.linkedin.com/in/gordon-hui/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <ContactImages src={Linkedin} alt="linkedin" className="contactimage" />
         </a>
-        <a href="#contactForm">
+        {/* <a href="#contactForm">
         <ContactImages src={Email} alt="email" className="contactimage" />
-      </a>
+      </a> */}
       </ContactDiv>
-    <p>© 2021 by Gordon Hui</p>
+    <p>Gordon Hui © 2021</p>
     </FooterDiv>
   )
 }

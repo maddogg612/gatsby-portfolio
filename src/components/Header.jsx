@@ -1,3 +1,4 @@
+//import { Link, Typography } from '@mui/material';
 import React from 'react';
 import HeaderPic from '../images/favicon.png'
 //import styled from 'styled-components';
@@ -16,9 +17,7 @@ const Header = () => {
       <span>GH</span>
     </div>
     <div className="header-links">
-      <a href="#aboutSection">About</a>
-      <a href="#projects">Projects</a>
-      <a href="resume">Resume</a>
+      <a href="https://drive.google.com/file/d/1me1rsMeqEo77X6GD58GMkGiLyNNlOgki/view?usp=sharing" target='_blank' rel='noreferrer'>Resume</a>
     </div>
   </header>
   )

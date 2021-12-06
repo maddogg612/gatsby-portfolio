@@ -1,18 +1,18 @@
 import React from 'react';
-import TechStack from './TechStack';
+// import TechStack from './TechStack';
+import {Container, Typography} from '@mui/material';
 
 const About = () => {
   return (
-    <div className="aboutSection" id="aboutSection">
-      <h1>
-        {' '}
-        Hi, I am <strong>Gordon Hui</strong>
-      </h1>
-      <p> full-stack developer & veterinarian</p>
-      <p>my narriative goes here</p>
+    <Container className="aboutSection" id="aboutSection">
 
-      <TechStack/>
-    </div>
+      <Typography variant='h2'>Hello, I am Gordon Hui.</Typography>
+      <Typography variant='h5'> I am a full-stack software engineer. My work focuses on React/Redux stack on frontend and Node server design on the backend. I am trying to make life simplier one application at a time.  </Typography>
+      {/* <Typography variant='h5'>something eye opening here</Typography> */}
+
+      {/* <TechStack/> */}
+  
+    </Container>
   )
 }
 
