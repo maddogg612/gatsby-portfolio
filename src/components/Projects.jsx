@@ -1,9 +1,9 @@
 import React from 'react';
 import Pupperly from '../images/Project/pupperly.png'
-import HateIt from '../images/Project/H-Ate-It.png'
-import NTheLoop from '../images/Project/In the Loop with Drawer.png'
+import HateIt from '../images/Project/hateit.png'
+import NTheLoop from '../images/Project/intheloop.png'
 import Devaltio from '../images/Project/devaltio.png'
-import After from '../images/Project/After.png'
+import After from '../images/Project/after.png'
 import { Container, Grid, Button, CardMedia, Typography, CardContent, CardActions, Card, Link } from '@mui/material';
 
 
