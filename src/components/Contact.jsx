@@ -23,8 +23,7 @@ const Contact = () => {
               <Grid xs={12} item>
                 <TextField
                   className="form-control firstName"
-                  placeholder="Enter first name"
-                  label="Name"
+                  placeholder="Enter your name"
                   variant="outlined"
                   fullWidth
                   required
@@ -35,8 +34,7 @@ const Contact = () => {
               <Grid xs={12} item>
                 <TextField
                   className="form-control email"
-                  placeholder="Enter email"
-                  label="Email"
+                  placeholder="Enter your email"
                   variant="outlined"
                   fullWidth
                   required
@@ -50,7 +48,6 @@ const Contact = () => {
                   placeholder="Type your message here"
                   multiline
                   rows={4}
-                  label="Message"
                   variant="outlined"
                   fullWidth
                   required

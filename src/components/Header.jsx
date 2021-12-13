@@ -14,7 +14,7 @@ const Header = () => {
   <header className='header'>
     <div className='header-left'>
       <img src={HeaderPic} alt='mini headshot'/>
-      <span>GH</span>
+      <span>Gordon Hui</span>
     </div>
     <div className="header-links">
       <a href="https://drive.google.com/file/d/1me1rsMeqEo77X6GD58GMkGiLyNNlOgki/view?usp=sharing" target='_blank' rel='noreferrer'>Resume</a>
