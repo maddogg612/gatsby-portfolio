@@ -2,7 +2,7 @@ import React from 'react';
 import Pupperly from '../images/Project/pupperly.png'
 import HateIt from '../images/Project/hateit.png'
 import NTheLoop from '../images/Project/intheloop.png'
-import Devaltio from '../images/Project/devaltio.png'
+import Devaltio from '../../public/static/devaltio-adbb9ba1686fce5550d276a94e5e1206.png'
 import After from '../images/Project/after.png'
 import { Container, Grid, Button, CardMedia, Typography, CardContent, CardActions, Card, Link } from '@mui/material';
 
